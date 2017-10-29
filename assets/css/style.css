@@ -1,0 +1,118 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.full-footer {
+    padding: 70px 0;
+
+}
+
+.footer-box {
+    background: #19b5fe;
+    height: 320px;
+    padding: 30px 40px;
+}
+
+.footer-box h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.footer-box h2:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    width: 100px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.footer-box h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transform: translateX(-50%);
+}
+
+.footer-box input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.footer-box textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.submit {
+    text-align: center;
+
+}
+
+.submit a {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    background: #fff;
+    color: #19b5fe;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+}
